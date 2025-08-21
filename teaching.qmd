@@ -1,0 +1,35 @@
+---
+title: "Teaching"
+---
+<!-- 
+During my 2-year master’s degree, I worked as a tutor for 1st-year bachelor’s students
+for the Algorithms and programming class for a period of 4 months. This class covers
+the basics of algorithms and introduces the language Python. -->
+
+During the first 3 years of my PhD, I carried out complementary teaching assignments. For each class, I contributed to the correction of assessments, exams and projects. For the Functional Programming class, a contribution to the preparation of assessments was provided, and for the Imperative and Object-Oriented Programming class, I took part in the creation of tutorial sheets.
+
+## Course taught
+
+### Logic (seminar/tutorial)
+
+This course provides an introduction to propositional and predicate logic. The proof assistant Coq is used during the tutorials.
+<!-- This class is graded throughout the semester via continuous assessments, which are the responsibility of the seminar supervisors, and a final exam. -->
+
+### Framework Web (tutorial)
+
+The course introduces two frameworks for web programming: Symfony and Angular.
+
+### Compilation (tutorial)
+
+This master’s-level course breaks down the compilation of a program, starting with the definition of the grammar and ending with translation into the low-level language assembler. For this, the ANTLR4 tool is used via the Java language.
+<!-- The class is graded by continuous and final assessments. -->
+
+### Imperative and Object-Oriented Programming
+
+The aim of this course is to use the C and C++ languages in order to understand what explicit memory management involves.
+
+### Functional Programming
+
+This course introduces functional programming via the OCaml language.
+<!-- This class is -->
+<!-- graded through a mid-term paper exam, a final exam and a project. -->

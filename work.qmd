@@ -1,0 +1,108 @@
+---
+title: "Work"
+---
+
+## Publications
+
+### 2025
+
+<details>
+<summary style="color:black;">_Une sémantique mécanisée d'un langage FRP avec effets, with Frédéric Dabrowski, Jules Chouquet and Frédéric Loulergue, AFADL'25_</summary>
+- June 2025
+- In Approches Formelles dans l'Assistance au Développement de Logiciels
+- [hal-05135592v1](https://hal.science/hal-05135592v1)
+
+Short version of "_A Mechanized Formalization of an FRP Language with Effects_" paper for a national conference.
+</details>
+
+<details>
+<summary style="color:black;">_A Mechanized Formalization of an FRP Language with Effects, with Frédéric Dabrowski, Jules Chouquet and Frédéric Loulergue, SAC'25_</summary>
+- March 2025
+- In ACM Symposium on Applied Computing
+- [10.1145/3672608.3707907](https://doi.org/10.1145/3672608.3707907)
+
+Functional Reactive Programming (FRP) is a functional programming paradigm designed for systems interacting with their environment. The Yampa library, a Haskell implementation, allows users to construct signal functions that synchronously process input streams to produce output streams. While this library facilitates concise and robust coding, managing I/O is cumbersome. To address this issue, the Wormholes library extends Yampa with constructs to bind I/O to resource names, accessible in an imperative style. Few FRP languages are formalized, and Wormholes added challenging features. This article presents a mechanized formalization of a slightly modified version of Wormholes, improving the result and correcting some issues. 
+</details>
+
+### 2024
+
+<details>
+<summary style="color:black;">_SyDPaCC: A Framework for the Development of Verified Scalable Parallel Functional Programs, with Frédéric Loulergue, ISOLA'24_</summary>
+- October 2024 
+- In International Symposium on Leveraging Applications of Formal Methods
+- [10.1007/978-3-031-75380-0_16](https://doi.org/10.1007/978-3-031-75380-0_16)
+
+ The SyDPaCC framework supports the development of scalable parallel functional programs with the proof assistant Coq and helps the developers to write correct-by-construction programs with respect to specifications written as simple (and possibly very inefficient) functional programs. Parallel programs are built from specifications using verified program transformations offered by SyDPaCC. Leveraging Coq extraction mechanism, compilable code can be obtained and executed on shared-memory or large scale distributed memory parallel machines. 
+</details>
+
+<!--
+- SyDPaCC: A Framework for the Development of Verified Scalable Parallel Functional Programs
+  - Frédéric Loulergue and Jordan Ischard 
+  - October 2024 
+  - In International Symposium on Leveraging Applications of Formal Methods (pp. 274-295).
+  - [10.1007/978-3-031-75380-0_16](https://doi.org/10.1007/978-3-031-75380-0_16)
+- A Mechanized Formalization of an FRP Language with Effects
+  - Jordan Ischard, Frédéric Dabrowski, Jules Chouquet and Frédéric Loulergue
+  - March 2025
+  - In ACM Symposium on Applied Computing (SAC)
+  - [10.1145/3672608.3707907](https://doi.org/10.1145/3672608.3707907)
+- Une sémantique mécanisée d'un langage FRP avec effets
+  - Jordan Ischard, Frédéric Dabrowski, Jules Chouquet and Frédéric Loulergue
+  - June 2025
+  - In AFADL 2025
+  - [hal-05135592v1](https://hal.science/hal-05135592v1)
+-->
+  
+
+## Preprints
+
+### 2025
+
+<details>
+<summary style="color:black;">_Functional Reactive Programming with Effects, a more permissive approach, with Frédéric Dabrowski, Jules Chouquet and Frédéric Loulergue, AFADL'25_</summary>
+  - [hal-04983000v2](https://hal.science/hal-04983000v2)
+
+We introduce a functional reactive programming language that extends WORMHOLES, an enhance- ment of YAMPA with support for effects. Our proposal relaxes the constraint in WORMHOLES that restricts all resources to single-use. Resources are categorized into two kinds: input/output resources and internal resources. Input/output resources model interactions with the environment and follow constraints similar to those in WORMHOLES. Internal resources, on the other hand, enable com- munication between program components and can be used multiple times. We demonstrate that programs written in our language can be translated into equivalent effect-free YAMPA programs, ensuring that our approach remains compatible with existing functional reactive paradigms. 
+</details>
+
+## Presentations
+
+### 2025
+
+- Une sémantique mécanisée d'un langage FRP avec effets, Approches Formelles dans l'Assistance au Développement de Logiciels (AFADL), Pau, France (June 2025)
+
+- A Mechanized Formalization of an FRP Language with Effects, Symposium On Applied Computing (SAC), Catania, Sicily (April 2025)
+
+### 2024
+
+- SyDPaCC: A Framework for the Development of Verified Scalable Parallel Functional Programs, Journées informatique en Région Centre-Val de Loire (JIRC),Tours (November 2024)
+
+- SyDPaCC: A Framework for the Development of Verified Scalable Parallel Functional Programs, In International Symposium on Leveraging Applications of Formal Methods (ISoLA), Crete (October 2024)
+
+### 2023
+
+- Formalization of an FRP language with references, SeSTeRce Day, Orléans, France (September 2023)
+
+### 2022
+
+- An Overview of Reactive programming, PhD students Day, Orléans (April 2022)
+- When the purely functional has effects, Journées informatique en Région Centre-Val de Loire (JIRC), Orléans (April 2022)
+
+## Projects
+
+### 2025
+
+<details>
+<summary style="color:black;">_DeBrLevel Coq library_</summary>
+  - {{< fa brands github >}} [JordanIschard/DeBrLevel](https://github.com/JordanIschard/DeBrLevel)
+
+The DeBrLevel library was developed as part of my PhD for the purposes of mechanizing a variant of the WORMHOLES language (see [JordanIschard/Mechanized-Wormholes](https://github.com/JordanIschard/Mechanized-Wormholes)).
+It allows us to define structures containing identifiers using levels, a representation proposed by N. G. DeBruijn. It consists of a collection of modules and interfaces, and contains a set of predefined structures such as lists, sets, and maps.
+</details>
+
+<details>
+<summary style="color:black;">_Mechanized Wormholes_</summary>
+  - {{< fa brands github >}} [JordanIschard/Mechanized-Wormholes](https://github.com/JordanIschard/Mechanized-Wormholes)
+
+Formalization of the language WORMHOLES, an Arrow-based FRP language, using De Bruijn levels. It is associated with paper "_A Mechanized Formalization of an FRP Language with Effects_".
+</details>

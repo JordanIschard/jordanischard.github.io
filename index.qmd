@@ -1,0 +1,33 @@
+---
+title: "Home"
+---
+::: {layout="[ 70, 30 ]"}
+
+::: {#first-column}
+## Presentation
+
+I am Jordan Ischard, a PhD student at the university of Orléans. I am working on formal verification of functional reactive programming language with effects. 
+:::
+
+::: {#second-column}
+![](images/moi.jpg){width=50% fig-align="left"}
+:::
+
+:::
+
+## Position
+
+I am currently in my fourth year of PhD at the university of Orléans. In addition, I am a support for research engineer since October 2024.
+
+## Research topics
+
+My PhD focuses on the verification of reactive programming languages and, more specifically, on functional reactive programming (FRP) languages with imperative features. I am interested in the FRP languages, like Yampa which is purely functional, and their extension with side effects or real parallelism. I use a proof assistant called Coq/Rocq to guarantee my results. I also work on the transformation of parallel programs verified in this same proof assistant.
+
+_To summarize, I am interested in formal verification (for languages as well as programs), proof assistant usage and language semantics._
+
+## Contact info
+
+- {{< fa envelope >}} [jordan.ischard@univ-orleans.fr](mailto:jordan.ischard@univ-orleans.fr)
+- {{< fa brands linkedin >}} [linkedin.com/in/jordan-ischard-040a69173](https://www.linkedin.com/in/jordan-ischard-040a69173/)
+- {{< fa brands github >}} [github.com/JordanIschard](https://github.com/JordanIschard)
+- {{< ai orcid >}} [orcid.org/0000-0003-0505-641X](https://orcid.org/0000-0003-0505-641X)

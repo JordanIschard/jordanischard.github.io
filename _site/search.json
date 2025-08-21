@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "I am Jordan Ischard, a PhD student at the university of Orléans. I am working on formal verification of functional reactive programming language with effects."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html#research-topics",
+    "href": "index.html#research-topics",
+    "title": "Home",
+    "section": "Research topics",
+    "text": "Research topics\nMy PhD focuses on the verification of reactive programming languages and, more specifically, on functional reactive programming (FRP) languages with imperative features. I am interested in the FRP languages, like Yampa which is purely functional, and their extension with side effects or real parallelism. I use a proof assistant called Coq/Rocq to guarantee my results. I also work on the transformation of parallel programs verified in this same proof assistant.\nTo summarize, I am interested in formal verification (for languages as well as programs), proof assistant usage and language semantics."
+  },
+  {
+    "objectID": "index.html#contact-info",
+    "href": "index.html#contact-info",
+    "title": "Home",
+    "section": "Contact info",
+    "text": "Contact info\n\n jordan.ischard@univ-orleans.fr\n linkedin.com/in/jordan-ischard-040a69173\n github.com/JordanIschard\n orcid.org/0000-0003-0505-641X"
+  },
+  {
+    "objectID": "work.html#presentations",
+    "href": "work.html#presentations",
+    "title": "Work",
+    "section": "Presentations",
+    "text": "Presentations\n\n2025\n\nUne sémantique mécanisée d’un langage FRP avec effets, Approches Formelles dans l’Assistance au Développement de Logiciels (AFADL), Pau, France (June 2025)\nA Mechanized Formalization of an FRP Language with Effects, Symposium On Applied Computing (SAC), Catania, Sicily (April 2025)\n\n\n\n2024\n\nSyDPaCC: A Framework for the Development of Verified Scalable Parallel Functional Programs, Journées informatique en Région Centre-Val de Loire (JIRC),Tours (November 2024)\nSyDPaCC: A Framework for the Development of Verified Scalable Parallel Functional Programs, In International Symposium on Leveraging Applications of Formal Methods (ISoLA), Crete (October 2024)\n\n\n\n2023\n\nFormalization of an FRP language with references, SeSTeRce Day, Orléans, France (September 2023)\n\n\n\n2022\n\nAn Overview of Reactive programming, PhD students Day, Orléans (April 2022)\nWhen the purely functional has effects, Journées informatique en Région Centre-Val de Loire (JIRC), Orléans (April 2022)"
+  },
+  {
+    "objectID": "work.html#projects",
+    "href": "work.html#projects",
+    "title": "Work",
+    "section": "Projects",
+    "text": "Projects\n\n2025\n\n\nDeBrLevel Coq library\n\n\n JordanIschard/DeBrLevel\n\nThe DeBrLevel library was developed as part of my PhD for the purposes of mechanizing a variant of the WORMHOLES language (see JordanIschard/Mechanized-Wormholes). It allows us to define structures containing identifiers using levels, a representation proposed by N. G. DeBruijn. It consists of a collection of modules and interfaces, and contains a set of predefined structures such as lists, sets, and maps.\n\n\n\nMechanized Wormholes\n\n\n JordanIschard/Mechanized-Wormholes\n\nFormalization of the language WORMHOLES, an Arrow-based FRP language, using De Bruijn levels. It is associated with paper “A Mechanized Formalization of an FRP Language with Effects”."
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Download PDF file."
+  },
+  {
+    "objectID": "work.html",
+    "href": "work.html",
+    "title": "Work",
+    "section": "",
+    "text": "Une sémantique mécanisée d’un langage FRP avec effets, with Frédéric Dabrowski, Jules Chouquet and Frédéric Loulergue, AFADL’25\n\n\nJune 2025\nIn Approches Formelles dans l’Assistance au Développement de Logiciels\nhal-05135592v1\n\nShort version of “A Mechanized Formalization of an FRP Language with Effects” paper for a national conference.\n\n\n\nA Mechanized Formalization of an FRP Language with Effects, with Frédéric Dabrowski, Jules Chouquet and Frédéric Loulergue, SAC’25\n\n\nMarch 2025\nIn ACM Symposium on Applied Computing\n10.1145/3672608.3707907\n\nFunctional Reactive Programming (FRP) is a functional programming paradigm designed for systems interacting with their environment. The Yampa library, a Haskell implementation, allows users to construct signal functions that synchronously process input streams to produce output streams. While this library facilitates concise and robust coding, managing I/O is cumbersome. To address this issue, the Wormholes library extends Yampa with constructs to bind I/O to resource names, accessible in an imperative style. Few FRP languages are formalized, and Wormholes added challenging features. This article presents a mechanized formalization of a slightly modified version of Wormholes, improving the result and correcting some issues.\n\n\n\n\n\n\nSyDPaCC: A Framework for the Development of Verified Scalable Parallel Functional Programs, with Frédéric Loulergue, ISOLA’24\n\n\nOctober 2024\nIn International Symposium on Leveraging Applications of Formal Methods\n10.1007/978-3-031-75380-0_16\n\nThe SyDPaCC framework supports the development of scalable parallel functional programs with the proof assistant Coq and helps the developers to write correct-by-construction programs with respect to specifications written as simple (and possibly very inefficient) functional programs. Parallel programs are built from specifications using verified program transformations offered by SyDPaCC. Leveraging Coq extraction mechanism, compilable code can be obtained and executed on shared-memory or large scale distributed memory parallel machines."
+  },
+  {
+    "objectID": "work.html#publications",
+    "href": "work.html#publications",
+    "title": "Work",
+    "section": "",
+    "text": "Une sémantique mécanisée d’un langage FRP avec effets, with Frédéric Dabrowski, Jules Chouquet and Frédéric Loulergue, AFADL’25\n\n\nJune 2025\nIn Approches Formelles dans l’Assistance au Développement de Logiciels\nhal-05135592v1\n\nShort version of “A Mechanized Formalization of an FRP Language with Effects” paper for a national conference.\n\n\n\nA Mechanized Formalization of an FRP Language with Effects, with Frédéric Dabrowski, Jules Chouquet and Frédéric Loulergue, SAC’25\n\n\nMarch 2025\nIn ACM Symposium on Applied Computing\n10.1145/3672608.3707907\n\nFunctional Reactive Programming (FRP) is a functional programming paradigm designed for systems interacting with their environment. The Yampa library, a Haskell implementation, allows users to construct signal functions that synchronously process input streams to produce output streams. While this library facilitates concise and robust coding, managing I/O is cumbersome. To address this issue, the Wormholes library extends Yampa with constructs to bind I/O to resource names, accessible in an imperative style. Few FRP languages are formalized, and Wormholes added challenging features. This article presents a mechanized formalization of a slightly modified version of Wormholes, improving the result and correcting some issues.\n\n\n\n\n\n\nSyDPaCC: A Framework for the Development of Verified Scalable Parallel Functional Programs, with Frédéric Loulergue, ISOLA’24\n\n\nOctober 2024\nIn International Symposium on Leveraging Applications of Formal Methods\n10.1007/978-3-031-75380-0_16\n\nThe SyDPaCC framework supports the development of scalable parallel functional programs with the proof assistant Coq and helps the developers to write correct-by-construction programs with respect to specifications written as simple (and possibly very inefficient) functional programs. Parallel programs are built from specifications using verified program transformations offered by SyDPaCC. Leveraging Coq extraction mechanism, compilable code can be obtained and executed on shared-memory or large scale distributed memory parallel machines."
+  },
+  {
+    "objectID": "work.html#preprints",
+    "href": "work.html#preprints",
+    "title": "Work",
+    "section": "Preprints",
+    "text": "Preprints\n\n2025\n\n\nFunctional Reactive Programming with Effects, a more permissive approach, with Frédéric Dabrowski, Jules Chouquet and Frédéric Loulergue, AFADL’25\n\n\nhal-04983000v2\n\nWe introduce a functional reactive programming language that extends WORMHOLES, an enhance- ment of YAMPA with support for effects. Our proposal relaxes the constraint in WORMHOLES that restricts all resources to single-use. Resources are categorized into two kinds: input/output resources and internal resources. Input/output resources model interactions with the environment and follow constraints similar to those in WORMHOLES. Internal resources, on the other hand, enable com- munication between program components and can be used multiple times. We demonstrate that programs written in our language can be translated into equivalent effect-free YAMPA programs, ensuring that our approach remains compatible with existing functional reactive paradigms."
+  },
+  {
+    "objectID": "work.html#section",
+    "href": "work.html#section",
+    "title": "Work",
+    "section": "2025",
+    "text": "2025\n\n\nFunctional Reactive Programming with Effects, a more permissive approach, with Frédéric Dabrowski, Jules Chouquet and Frédéric Loulergue, AFADL’25\n\n\nhal-04983000v2\n\nWe introduce a functional reactive programming language that extends WORMHOLES, an enhance- ment of YAMPA with support for effects. Our proposal relaxes the constraint in WORMHOLES that restricts all resources to single-use. Resources are categorized into two kinds: input/output resources and internal resources. Input/output resources model interactions with the environment and follow constraints similar to those in WORMHOLES. Internal resources, on the other hand, enable com- munication between program components and can be used multiple times. We demonstrate that programs written in our language can be translated into equivalent effect-free YAMPA programs, ensuring that our approach remains compatible with existing functional reactive paradigms."
+  },
+  {
+    "objectID": "index.html#current-position",
+    "href": "index.html#current-position",
+    "title": "Home",
+    "section": "",
+    "text": "I still doing my PhD at the university of Orléans."
+  },
+  {
+    "objectID": "index.html#presentation",
+    "href": "index.html#presentation",
+    "title": "Home",
+    "section": "",
+    "text": "I am Jordan Ischard, a PhD student at the university of Orléans. I am working on formal verification of functional reactive programming language with effects."
+  },
+  {
+    "objectID": "index.html#position",
+    "href": "index.html#position",
+    "title": "Home",
+    "section": "Position",
+    "text": "Position\nI am currently in my fourth year of PhD at the university of Orléans. In addition, I am a support for research engineer since October 2024."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "During the first 3 years of my PhD, I carried out complementary teaching assignments. For each class, I contributed to the correction of assessments, exams and projects. For the Functional Programming class, a contribution to the preparation of assessments was provided, and for the Imperative and Object-Oriented Programming class, I took part in the creation of tutorial sheets."
+  },
+  {
+    "objectID": "teaching.html#course-taught",
+    "href": "teaching.html#course-taught",
+    "title": "Teaching",
+    "section": "Course taught",
+    "text": "Course taught\n\nLogic (seminar/tutorial)\nThis course provides an introduction to propositional and predicate logic. The proof assistant Coq is used during the tutorials. \n\n\nFramework Web (tutorial)\nThe course introduces two frameworks for web programming: Symfony and Angular.\n\n\nCompilation (tutorial)\nThis master’s-level course breaks down the compilation of a program, starting with the definition of the grammar and ending with translation into the low-level language assembler. For this, the ANTLR4 tool is used via the Java language. \n\n\nImperative and Object-Oriented Programming\nThe aim of this course is to use the C and C++ languages in order to understand what explicit memory management involves.\n\n\nFunctional Programming\nThis course introduces functional programming via the OCaml language."
+  }
+]
