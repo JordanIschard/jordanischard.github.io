@@ -17,7 +17,7 @@ I am Jordan Ischard, a PhD student at the university of Orléans. I am working o
 
 ## Position
 
-I am currently in my fourth year of PhD at the university of Orléans. In addition, I am a support for research engineer since October 2024.
+I am currently in my fourth year of PhD at the university of Orléans. My supervisors are [Frédéric Loulergue](https://frederic.loulergue.eu/), [Frédéric Dabrowski](https://www.univ-orleans.fr/lifo/Members/Frederic.Dabrowski/) and [Jules Chouquet](https://www.univ-orleans.fr/lifo/membres/chouquet/).  In addition, I am a support for research engineer since October 2024 in the [AcceptAlgo](https://www.univ-orleans.fr/lifo/projets/Acceptabilit%C3%A9%20des%20algorithmes) project.
 
 ## Research topics
 
